@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stage_2.Lesson_1
+/*namespace Stage_2.Lesson_1
 {
     class Car    // Base
     {        
@@ -82,4 +82,4 @@ namespace Stage_2.Lesson_1
             seriesX6.PrintFuelType(seriesX6.FuelTypeProperty);
         }
     }
-}
+}*/

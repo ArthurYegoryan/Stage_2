@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inheritance_Polimorphism
+/*namespace Inheritance_Polimorphism
 {    
     sealed class Animal               // Եթե class-ը ունի sealed keyword, ապա այն չի կարող ժառանգվել
     {
@@ -80,4 +80,4 @@ namespace Inheritance_Polimorphism
             mercedes.Method();
         }
     }
-}
+}*/

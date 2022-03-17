@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stage_2.Lesson_1
+/*namespace Stage_2.Lesson_1
 {
     abstract class Cars
     {
@@ -36,4 +36,4 @@ namespace Stage_2.Lesson_1
             mercedes.CarBody();
         }
     }
-}
+}*/
