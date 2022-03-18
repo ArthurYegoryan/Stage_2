@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/*namespace Stage_2
+namespace Stage_2
 {
     class Variables           // By default class-ը ընդունում է internal modifire-ը, եթե այն չի գտնվում որևէ class-ի կամ struct-ի մեջ
     {
@@ -55,4 +55,4 @@ using System.Threading.Tasks;
             Console.WriteLine(variables.g);               // Protected internal
         }
     }
-}*/
+}
