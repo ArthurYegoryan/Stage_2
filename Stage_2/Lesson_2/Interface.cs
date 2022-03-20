@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stage_2.Lesson_2
+/*namespace Stage_2.Lesson_2
 {
     public interface IDescription      // Կարող ենք փոխել նաև interface-ի modifire-ը
     {
@@ -77,4 +77,4 @@ namespace Stage_2.Lesson_2
             Console.WriteLine(IMoveable.distance);      // Կարող ենք դրսում օգտվել և փոփոխել interface-ի տվյալները
         }
     }
-}
+}*/

@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\FS\\.nuget\\packages\\": {},
+    "C:\\Users\\arthu\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FS\\Desktop\\Arthur\\C#_Projects\\C#_Lessons_Homeworks_Stage2\\Stage_2\\Stage_2.csproj",
+      "projectUniqueName": "C:\\Users\\arthu\\OneDrive\\Desktop\\Arthur\\C#\\Lessons\\Stage_2\\Stage_2\\Stage_2\\Stage_2.csproj",
       "projectName": "Stage_2",
-      "projectPath": "C:\\Users\\FS\\Desktop\\Arthur\\C#_Projects\\C#_Lessons_Homeworks_Stage2\\Stage_2\\Stage_2.csproj",
-      "packagesPath": "C:\\Users\\FS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FS\\Desktop\\Arthur\\C#_Projects\\C#_Lessons_Homeworks_Stage2\\Stage_2\\obj\\",
+      "projectPath": "C:\\Users\\arthu\\OneDrive\\Desktop\\Arthur\\C#\\Lessons\\Stage_2\\Stage_2\\Stage_2\\Stage_2.csproj",
+      "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\arthu\\OneDrive\\Desktop\\Arthur\\C#\\Lessons\\Stage_2\\Stage_2\\Stage_2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\FS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stage_2.Lesson_2
+/*namespace Stage_2.Lesson_2
 {
     class Person
     {
@@ -81,4 +81,4 @@ namespace Stage_2.Lesson_2
             }
         }
     }
-}
+}*/
