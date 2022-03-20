@@ -47,7 +47,7 @@ namespace Stage_2.Lesson_3
     {
         public void UniversityName()
         {
-            Console.WriteLine("Our university is ASUE");
+            Console.WriteLine("University: ASUE");
         }
         public void HeadOfUniversity()
         {
@@ -62,8 +62,12 @@ namespace Stage_2.Lesson_3
         }
     }
 
-    class FacultyOfMenejment : University
+    class FacultyOfManagement : University
     {
+        public void FacultyName()
+        {
+            Console.WriteLine("Faculty: Management");
+        }
         public void HeadOfFaculty()
         {
             Console.WriteLine("Head of faculty of menegment is Manuk Movsisyan");
@@ -71,8 +75,12 @@ namespace Stage_2.Lesson_3
         }
     }
 
-    class DepartmentOfMicroeconomics : FacultyOfMenejment
+    class DepartmentOfMicroeconomics : FacultyOfManagement
     {
+        public void DepartmentName()
+        {
+            Console.WriteLine("Department: Microeconomics");
+        }
         public void HeadOfDepartment()
         {
             Console.WriteLine("Head of department of microeconomics is Mikayel Melkumyan");
@@ -81,6 +89,10 @@ namespace Stage_2.Lesson_3
 
     class EnterpriseEconomicsAndManagement : DepartmentOfMicroeconomics
     {
+        public void StudentGroupName()
+        {
+            Console.WriteLine("Student group name: Enterprise of economics and management");
+        }
         public void HeadOfStudensGroup()
         {
             Console.WriteLine("Head of students group is Emma Movsisyan");
@@ -135,51 +147,113 @@ namespace Stage_2.Lesson_3
     {
         public void Department()
         {
-            Console.WriteLine("");
+            Console.WriteLine("Enterprise of economics and management");
         }
 
         public void FirstName()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Emma");
         }
 
         public void Gender()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Female");
         }
 
         public void MiddleName()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("-------");
         }
 
         public void PassportData()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("AN00000000");
         }
 
         public void PlaceOfResidence()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("City Yerevan");
         }
 
         public void Position()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Head of students group 1");
         }
 
         public void SecondName()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Movsisyan");
         }
     }
 
     internal class Lesson_3_Task_2
     {
         static void Main()
-        {
-            University university = new University();
-            university.HeadOfUniversity();
+        {            
+            Student1 student1 = new Student1();
+
+            Console.WriteLine("Information about student 1:");
+
+            student1.UniversityName();
+            student1.FacultyName();
+            student1.DepartmentName();
+            student1.StudentGroupName();
+            Console.WriteLine();
+            
+            Console.Write("First name: ");
+            student1.FirstName();
+
+            Console.Write("Second name: ");
+            student1.SecondName();
+
+            Console.Write("Middle name: ");
+            student1.MiddleName();
+
+            Console.Write("Gender: ");
+            student1.Gender();
+
+            Console.Write("Passport seria: ");
+            student1.PassportData();
+
+            Console.Write("Place of residence: ");
+            student1.PlaceOfResidence();
+
+            Console.Write("Group: ");
+            student1.Group();
+
+            Console.WriteLine("About parents:");
+            student1.AboutParents();                        
+            Console.WriteLine();
+
+
+            Teacher1 teacher1 = new Teacher1();
+
+            Console.WriteLine("Information about teacher 1:");
+
+            Console.Write("First name: ");
+            teacher1.FirstName();
+
+            Console.Write("Second name: ");
+            teacher1.SecondName();
+
+            Console.Write("Middle name: ");
+            teacher1.MiddleName();
+
+            Console.Write("Gender: ");
+            teacher1.Gender();
+
+            Console.Write("Passport seria: ");
+            teacher1.PassportData();
+
+            Console.Write("Place of residence: ");
+            teacher1.PlaceOfResidence();
+
+            Console.Write("Department: ");
+            teacher1.Department();
+
+            Console.Write("Position: ");
+            teacher1.Position();
+            Console.WriteLine();
         }
     }
 }
