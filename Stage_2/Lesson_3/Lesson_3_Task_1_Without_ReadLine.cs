@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stage_2
+/*namespace Stage_2
 {
     class ArrayProperties
     {
@@ -105,4 +105,4 @@ namespace Stage_2
             arrayProperties.GetArrayLength();
         }
     }
-}
+}*/

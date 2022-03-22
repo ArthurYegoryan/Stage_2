@@ -14,26 +14,26 @@ using System.Threading.Tasks;
             _size = size;
         }
 
-        public string[] array = new string[_size];
+        public char[] array = new char[_size];
 
         public void MakingArray()
         {
             Console.WriteLine("Enter array elements:");
             for (int i = 0; i < _size; i++)
             {
-                array[i] = Console.ReadLine();
+                array[i] = Convert.ToChar(Console.ReadLine());
             }
         }
 
         public void AddElement()
         {
             Console.Write("Enter the element that you want to add: ");
-            string element = Console.ReadLine();
+            char element = Convert.ToChar(Console.ReadLine());
 
             Console.Write("Enter a new element position: ");
             int position = Convert.ToInt32(Console.ReadLine());
 
-            string[] addedArray = new string[_size + 1];
+            char[] addedArray = new char[_size + 1];
             for (int i = 0; i < _size + 1; i++)
             {
                 if (i < position - 1)
@@ -51,7 +51,7 @@ using System.Threading.Tasks;
             }
 
             Console.WriteLine("New array with added element is:");
-            foreach (string item in addedArray)
+            foreach (char item in addedArray)
             {
                 Console.Write(item + "");
             }
@@ -62,7 +62,7 @@ using System.Threading.Tasks;
             Console.Write("Enter that element position that you want to delete: ");
             int position = Convert.ToInt32(Console.ReadLine());
 
-            string[] deletedElemArray = new string[_size - 1];
+            char[] deletedElemArray = new char[_size - 1];
             for (int i = 0; i < _size - 1; i++)
             {
                 if (i < position - 1)
@@ -76,7 +76,7 @@ using System.Threading.Tasks;
             }
 
             Console.WriteLine("New array with deleted element is:");
-            foreach (string item in deletedElemArray)
+            foreach (char item in deletedElemArray)
             {
                 Console.Write(item + "");
             }
@@ -111,4 +111,5 @@ using System.Threading.Tasks;
             arrayProperties.GetArrayLength();
         }
     }
-}*/
+}
+*/

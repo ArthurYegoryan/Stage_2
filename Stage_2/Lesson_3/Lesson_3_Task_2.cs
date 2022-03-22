@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stage_2.Lesson_3
+/*namespace Stage_2.Lesson_3
 {
     enum Prorectors
     {
@@ -256,4 +256,4 @@ namespace Stage_2.Lesson_3
             Console.WriteLine();
         }
     }
-}
+}*/
