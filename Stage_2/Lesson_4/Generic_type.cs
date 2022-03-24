@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stage_2
+/*namespace Stage_2
 {
     class Person <T>                     // Generic type-ը գրում ենք այս ձևով, չակերտների մեջ կարող ենք գրել ցանկացած այլ բան
     {
@@ -46,4 +46,4 @@ namespace Stage_2
             Console.WriteLine($"Model: {car.Model}, HorsePower: {car.HorsePower}, VinCode: {car.VinCode}");
         }
     }
-}
+}*/
