@@ -11,7 +11,7 @@ namespace Stage_2
         static void Main()
         {
             Dictionary<int, string> people = new Dictionary<int, string>();   // Empty dictionary,   key type - int,   value type - string
-            
+
             var people1 = new Dictionary<int, string>()      // Creating dixtionary people1   (key, value)
             {
                 { 1, "Arthur" },
@@ -42,7 +42,7 @@ namespace Stage_2
             var people3 = new KeyValuePair<int, string>(4, "Tigran");   // Creting one Key-Value Pair
 
 
-            
+
             var personInfo = new Dictionary<int, string>();
 
             personInfo.Add(1, "Arthur");                    // Adding element in personInfo Dictionary
@@ -83,6 +83,6 @@ namespace Stage_2
 
             int count = personInfo.Count;                   // Returns personInfo Dictionary elements (key - values) count
             Console.WriteLine(count);            // 2
-        }        
+        }
     }
 }
