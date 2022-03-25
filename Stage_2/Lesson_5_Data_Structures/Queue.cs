@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Stage_2.Lesson_5
 {
-    internal class QueueClass
+    internal class QueueClass                                                        // Queue is a FIFO (first in first out) data structure 
     {
         static void Main()
         {
