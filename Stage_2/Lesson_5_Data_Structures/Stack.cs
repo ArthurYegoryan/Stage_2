@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stage_2.Lesson_5
+/*namespace Stage_2.Lesson_5
 {
     internal class StackClass                                         // Stack is a LIFO (last in first out) data structure
     {
@@ -64,4 +64,4 @@ namespace Stage_2.Lesson_5
             //stack1.Clear();                                         // Removes all elements from stack1 Stack            
         }
     }
-}
+}*/

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Specialized;
 
-namespace Stage_2.Lesson_5
+/*namespace Stage_2.Lesson_5
 {
     internal class StringCollection_class
     {
@@ -96,4 +96,4 @@ namespace Stage_2.Lesson_5
             Console.WriteLine(person);
         }
     }
-}
+}*/

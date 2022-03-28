@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stage_2
+/*namespace Stage_2
 {
     internal class Dictionary
     {
@@ -12,7 +12,7 @@ namespace Stage_2
         {
             Dictionary<int, string> people = new Dictionary<int, string>();   // Empty dictionary,   key type - int,   value type - string
 
-            var people1 = new Dictionary<int, string>()      // Creating dixtionary people1   (key, value)
+            var people1 = new Dictionary<int, string>()      // Creating dictionary people1   (key, value)
             {
                 { 1, "Arthur" },
                 { 2, "Armen" },
@@ -85,4 +85,4 @@ namespace Stage_2
             Console.WriteLine(count);            // 2
         }
     }
-}
+}*/

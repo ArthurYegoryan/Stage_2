@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stage_2.Lesson_5
+/*namespace Stage_2.Lesson_5
 {
     internal class QueueClass                                                        // Queue is a FIFO (first in first out) data structure 
     {
@@ -82,4 +82,4 @@ namespace Stage_2.Lesson_5
             }
         }
     }
-}
+}*/
