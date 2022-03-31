@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stage_2
+/*namespace Stage_2
 {
     internal class Class1
     {
@@ -18,4 +18,4 @@ namespace Stage_2
             Console.WriteLine("Final " + p);
         }
     }
-}
+}*/

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stage_2
+/*namespace Stage_2
 {
     internal class Ref_Out_Task_Class
     {
@@ -26,4 +26,4 @@ namespace Stage_2
             double S = 2 * p * r;
         }
     }
-}
+}*/
