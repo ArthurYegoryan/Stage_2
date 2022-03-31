@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stage_2.Lesson_8
+/*namespace Stage_2.Lesson_8
 {
     internal class Task_Hovo_Main
     {
@@ -21,4 +21,4 @@ namespace Stage_2.Lesson_8
             Console.WriteLine($"Clean salary = {resultSalary.CleanSalary(ref salary)}");
         }
     }
-}
+}*/
