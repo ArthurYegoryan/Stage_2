@@ -19,7 +19,7 @@ namespace Stage_2.Lesson_8
             string path = @"C:\Users\arthu\OneDrive\Desktop\Arthur\C#\Lessons\Stage_2\Stage_2\Stage_2\Lesson_8\Files\file1.txt";
             string text = "Barlus Hayer!";
 
-            FileInfo fileInfo = new FileInfo(path);            
+            FileInfo fileInfo = new FileInfo(path);
 
             if (fileInfo.Exists)
             {
@@ -49,7 +49,7 @@ namespace Stage_2.Lesson_8
 
             string path3 = @"C:\Users\arthu\OneDrive\Desktop\Arthur\C#\Lessons\Stage_2\Stage_2\Stage_2\Lesson_8\Files\file3.txt";
             string text1 = "Barlus Hayer!\nHello world";
-            File.WriteAllText(path3, text1);            
+            File.WriteAllText(path3, text1);
 
             bool isEqual = File.Equals(path1, path2);      // Returns yes if path1 is equal to path2, otherwise false
             Console.WriteLine(isEqual);
@@ -71,10 +71,10 @@ namespace Stage_2.Lesson_8
 
             Console.WriteLine(File.GetLastWriteTimeUtc(path3));  // Returns the last time, that is written on that path file in UTC
 
-            /*string path4 = @"C:\Users\arthu\OneDrive\Desktop\Arthur\C#\Lessons\Stage_2\Stage_2\Stage_2\Lesson_8\Files\file4.txt";
+            string path4 = @"C:\Users\arthu\OneDrive\Desktop\Arthur\C#\Lessons\Stage_2\Stage_2\Stage_2\Lesson_8\Files\file4.txt";
             File.Create(path4).Close();
             string movePath = @"C:\Users\arthu\OneDrive\Desktop";
-            File.Move(path4, movePath, true);*/                      // Error!!!
+            File.Move(path4, movePath, true);                      // Error!!!
 
             File.ReadAllLines(path3);            // Open a file, reads all lines and then closes it
 
