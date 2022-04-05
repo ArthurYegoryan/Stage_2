@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace Stage_2.Lesson_8
+/*namespace Stage_2.Lesson_8
 {
     internal class FileStreamClass
     {
@@ -25,4 +25,4 @@ namespace Stage_2.Lesson_8
             fileStream.Close();                // Closes fileStream
         }
     }
-}
+}*/

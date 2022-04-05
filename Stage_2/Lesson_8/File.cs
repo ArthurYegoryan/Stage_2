@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace Stage_2.Lesson_8
+/*namespace Stage_2.Lesson_8
 {
     internal class Files
     {
@@ -83,4 +83,4 @@ namespace Stage_2.Lesson_8
             //File.Replace(path, path5, pathBackUp);
         }
     }
-}
+}*/
