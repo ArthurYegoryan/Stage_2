@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stage_2.Lesson_9_Delegate_Event
+/*namespace Stage_2.Lesson_9_Delegate_Event
 {
     internal class Delegate_2
     {
@@ -53,4 +53,4 @@ namespace Stage_2.Lesson_9_Delegate_Event
             //int n = operation6(4, 5);                       // Error, null reference 
         }
     }
-}
+}*/
