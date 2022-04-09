@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stage_2.Lesson_9_Delegate_Event
+/*namespace Stage_2.Lesson_9_Delegate_Event
 {
     internal class Lambda_Expressions
     {
@@ -67,4 +67,4 @@ namespace Stage_2.Lesson_9_Delegate_Event
             // We can use lambda-expressions as parameter of methods and result of parameters too
         }
     }
-}
+}*/
