@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stage_2.Lesson_9_Delegate_Event
+/*namespace Stage_2.Lesson_9_Delegate_Event
 {
     class Account
     {
@@ -61,4 +61,4 @@ namespace Stage_2.Lesson_9_Delegate_Event
         //  Creating events is possible especially if we don't need to do console, but for example we want to send email or sms
         // or do graffic picture of operations
     }
-}
+}*/
