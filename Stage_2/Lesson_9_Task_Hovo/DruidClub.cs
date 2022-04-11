@@ -17,5 +17,23 @@ namespace Stage_2.Lesson_9_Task_Hovo
             Console.WriteLine("Delivery number: 060-66-66-66");
             Console.WriteLine("Thanks for trusting us");
         }
+
+        public void Menu()
+        {
+            Console.WriteLine("Cafe Menu:");
+            Console.WriteLine("------------");
+            Console.WriteLine("Espresso\nAmerikano\nLatte\nGlasse");
+            Console.WriteLine();
+
+            Console.WriteLine("Rest Menu:");
+            Console.WriteLine("------------");
+            Console.WriteLine("Barbecue\nOmelet\nSalad\nFish");
+            Console.WriteLine();
+
+            Console.WriteLine("Pizza Menu:");
+            Console.WriteLine("------------");
+            Console.WriteLine("Neapolitan\nChicago\nGreek\nCalifornia");
+            Console.WriteLine();
+        }
     }
 }
